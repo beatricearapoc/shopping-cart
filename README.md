@@ -4,6 +4,7 @@
 A simple shopping cart built with React, allowing users to browse products, add them to a cart, and proceed to checkout.
 
 ---
+## How to Run the Project
 
 ## Libraries Used
 
@@ -17,24 +18,8 @@ A simple shopping cart built with React, allowing users to browse products, add 
   
 ---
 
-## How to Run the Project
+## Screenshots
+![Shopping Cart Screenshot](./assets/pic1.png)
+![Shopping Cart Screenshot](./assets/pic2.png)
 
-### 1. Clone the repository
-```bash
-git clone <repository-url>
-cd <repository-directory>
-
-Project Structure
-public/
-index.html - Main HTML file.
-src/
-App.js - Main entry point for the application.
-components/
-ProductCard.js - Displays individual product details.
-ProductListWithCart.js - Main page with the product list and cart.
-Cart.js - Handles the cart display and operations.
-Button.js - A reusable button component for various actions.
-SearchBar.js - A component for filtering products by name.
-pages/
-Checkout.js - Handles the checkout page.
 
