@@ -19,7 +19,7 @@ A simple shopping cart built with React, allowing users to browse products, add 
 ---
 
 ## Screenshots
-![pic1](./assets/pic1.png)
-![pic2](./assets/pic2.png)
 
+![pic2](https://github.com/user-attachments/assets/f5cc6964-1bab-4a03-8cf0-1c65207daad9)
+![pic1](https://github.com/user-attachments/assets/9accd291-0edd-4290-a5ba-92ef7060ae87)
 
