@@ -5,6 +5,13 @@ A simple shopping cart built with React, allowing users to browse products, add 
 
 ---
 ## How to Run the Project
+To run this project, follow these steps:
+1. Installation
+  - Install dependencies
+  npm install
+2. Development Server
+  - Starts a local development server and opens the app at http://localhost:5173 by default. The server will reload automatically as you make changes.
+  npm run dev
 
 ## Libraries Used
 
