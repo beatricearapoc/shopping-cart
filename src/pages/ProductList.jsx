@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import ProductCard from '../components/ProductCard'
 import Cart from '../components/Cart';
@@ -71,16 +71,15 @@ function ProductListWithCart() {
   if (loading) return <p>Loading...</p>;
 
   return (
-    <div className="flex">
+    <div className="flex bg-red-950">
       <div className="w-3/4 p-4">
         <SearchBar searchTerm={searchTerm} onSearch={handleSearch} />
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-4 gap-4">
           {filteredProducts.map((product) => (
             <ProductCard key={product.id} product={product} onAddToCart={addToCart} />
           ))}
         </div>
       </div>
-      {/* Cart is now a separate component */}
       <Cart cart={cart} setCart={setCart} navigate={navigate} />
     </div>
   );
